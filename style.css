@@ -1,0 +1,78 @@
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#account-page {
+    width:350px;
+    border:1px solid black;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+#account-page navbar{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+#account-page ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    display: flex;;
+}
+
+#account-page .story-circle{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:12px;
+}
+
+#account-page #stories ul {
+    flex-direction: row;
+}
+
+#feed {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    padding: 60px;
+}
+
+#feed .top-navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+#feed .top-navbar a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#feed .top-navbar a:hover, .top-navbar a.active {
+    background-color: #ddd;
+    color: black;
+}
+
+#feed .topnav-right {
+    display: flex;
+    align-items: center;
+}
